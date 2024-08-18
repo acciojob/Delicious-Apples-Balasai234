@@ -1,7 +1,7 @@
 :root{
 	background-color:greenyellow;
 }
-.container{
+.product{
 	display:flex;
 	justify-content:center;
 	align-items:center;
@@ -27,6 +27,10 @@
 .photo-main{
 	background-color:#79c465;
 }
+.product__photo{
+	border-image-width:100px;
+	
+}
 .price{
 	Color:red;
 	font-size:60px;
@@ -51,7 +55,7 @@
 .variant>ul>li>img{
 	margin:1px;
 }
-.varient>ul{
+.variant>ul{
 	list-style:none;
 	display:flex;
 }
